@@ -1,9 +1,0 @@
-C:\Users\buivu\source\repos\lab4-bai2\lab4-bai1\obj\Debug\lab4_bai1.Form1.resources
-C:\Users\buivu\source\repos\lab4-bai2\lab4-bai1\obj\Debug\lab4_bai1.Properties.Resources.resources
-C:\Users\buivu\source\repos\lab4-bai2\lab4-bai1\obj\Debug\lab4-bai1.csproj.GenerateResource.cache
-C:\Users\buivu\source\repos\lab4-bai2\lab4-bai1\obj\Debug\lab4-bai1.csproj.CoreCompileInputs.cache
-C:\Users\buivu\source\repos\lab4-bai2\lab4-bai1\bin\Debug\lab4-bai1.exe.config
-C:\Users\buivu\source\repos\lab4-bai2\lab4-bai1\bin\Debug\lab4-bai1.exe
-C:\Users\buivu\source\repos\lab4-bai2\lab4-bai1\bin\Debug\lab4-bai1.pdb
-C:\Users\buivu\source\repos\lab4-bai2\lab4-bai1\obj\Debug\lab4-bai1.exe
-C:\Users\buivu\source\repos\lab4-bai2\lab4-bai1\obj\Debug\lab4-bai1.pdb
