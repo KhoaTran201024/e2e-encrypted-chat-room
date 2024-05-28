@@ -1,0 +1,13 @@
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\obj\Debug\lab4-bai3.csprojAssemblyReference.cache
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\obj\Debug\lab4_bai3.Properties.Resources.resources
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\obj\Debug\lab4-bai3.csproj.GenerateResource.cache
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\obj\Debug\lab4-bai3.csproj.CoreCompileInputs.cache
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\bin\Debug\lab4-bai3.exe.config
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\bin\Debug\lab4-bai3.exe
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\bin\Debug\lab4-bai3.pdb
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\bin\Debug\Newtonsoft.Json.xml
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\obj\Debug\lab4-bai3.csproj.CopyComplete
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\obj\Debug\lab4-bai3.exe
+C:\Users\buivu\source\repos\lab4-bai2\lab4-bai3\obj\Debug\lab4-bai3.pdb
