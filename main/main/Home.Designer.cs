@@ -41,9 +41,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(337, 242);
+            this.button2.Location = new System.Drawing.Point(379, 302);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 35);
+            this.button2.Size = new System.Drawing.Size(133, 44);
             this.button2.TabIndex = 1;
             this.button2.Text = "Login";
             this.button2.UseVisualStyleBackColor = true;
@@ -52,19 +53,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(264, 294);
+            this.label1.Location = new System.Drawing.Point(297, 368);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(195, 17);
+            this.label1.Size = new System.Drawing.Size(217, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "Still do not have an account? ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(449, 294);
+            this.linkLabel1.Location = new System.Drawing.Point(505, 368);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(92, 17);
+            this.linkLabel1.Size = new System.Drawing.Size(103, 20);
             this.linkLabel1.TabIndex = 3;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Sign up here!";
@@ -72,9 +72,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(286, 160);
+            this.textBox1.Location = new System.Drawing.Point(322, 200);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(243, 22);
+            this.textBox1.Size = new System.Drawing.Size(273, 26);
             this.textBox1.TabIndex = 4;
             // 
             // contextMenuStrip1
@@ -85,17 +86,18 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(286, 204);
+            this.textBox2.Location = new System.Drawing.Point(322, 255);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(243, 22);
+            this.textBox2.Size = new System.Drawing.Size(273, 26);
             this.textBox2.TabIndex = 6;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(231, 160);
+            this.label2.Location = new System.Drawing.Point(260, 200);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 17);
+            this.label2.Size = new System.Drawing.Size(55, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "Name:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -103,18 +105,18 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(207, 204);
+            this.label3.Location = new System.Drawing.Point(233, 255);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 17);
+            this.label3.Size = new System.Drawing.Size(82, 20);
             this.label3.TabIndex = 8;
             this.label3.Text = "Password:";
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(900, 562);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2);
@@ -122,9 +124,9 @@
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Home";
             this.Text = "Home";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
