@@ -15,6 +15,8 @@ namespace main
 {
     public partial class onevs1chat : Form
     {
+        // Key for Vigenere encryption
+        private string encryptionKey = "KEY";
         public onevs1chat()
         {
             InitializeComponent();
@@ -26,6 +28,7 @@ namespace main
             Thread serverThread = new Thread(new ThreadStart(TCPStartUnsafeThread));
             serverThread.Start();
         }
+
         private List<Socket> TCPclientSockets = new List<Socket>();
         void TCPStartUnsafeThread()
         {
@@ -59,6 +62,7 @@ namespace main
         {
             while (clientSocket.Connected)
             {
+
                 string text = "";
                 byte[] recv = new byte[1024];
                 do
@@ -71,16 +75,73 @@ namespace main
                 if (text == "")
                     break;
                 richTextBox1.Text += text;
+
+
+
+
+
                 // Send message to every client
                 byte[] dataToSend = Encoding.UTF8.GetBytes(text);
+                
+
+
+
             }
             clientSocket.Close();
             TCPclientSockets.Remove(clientSocket); // Remove client from the list when disconnected
         }
+
+        private string Encrypt(string text, string key)
+        {
+            StringBuilder encryptedText = new StringBuilder();
+
+            for (int i = 0; i < text.Length; i++)
+            {
+                char character = text[i];
+                int keyIndex = i % key.Length;
+                int shift = key[keyIndex] - 'A';
+
+                if (char.IsLetter(character))
+                {
+                    char encryptedChar = (char)(('A' + (character - 'A' + shift) % 26));
+                    encryptedText.Append(encryptedChar);
+                }
+                else
+                {
+                    encryptedText.Append(character);
+                }
+            }
+
+            return encryptedText.ToString();
+        }
+        private string Decrypt(string encryptedText, string key)
+        {
+            StringBuilder decryptedText = new StringBuilder();
+
+            for (int i = 0; i < encryptedText.Length; i++)
+            {
+                char character = encryptedText[i];
+                int keyIndex = i % key.Length;
+                int shift = key[keyIndex] - 'A';
+
+                if (char.IsLetter(character))
+                {
+                    char decryptedChar = (char)(('A' + (character - 'A' - shift + 26) % 26));
+                    decryptedText.Append(decryptedChar);
+                }
+                else
+                {
+                    decryptedText.Append(character);
+                }
+            }
+
+            return decryptedText.ToString();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             
-            string text = richTextBox1.Text;
+            string text = Encrypt(richTextBox1.Text, encryptionKey);
             text = text.Trim();
             if (text[text.Length - 1] != '\n')
                 text += '\n';
