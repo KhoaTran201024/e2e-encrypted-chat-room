@@ -16,5 +16,10 @@ namespace main
         {
             InitializeComponent();
         }
+
+        private void Chatroom_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

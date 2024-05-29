@@ -97,5 +97,10 @@ namespace Lab3
         {
             StartListen(sender, e);
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -72,5 +72,30 @@ namespace Lab3
             byte[] data = Encoding.UTF8.GetBytes(text);
             stream.Write(data, 0, data.Length);
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nameText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mesText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -53,42 +53,47 @@
             this.richTextBox1.Size = new System.Drawing.Size(1133, 482);
             this.richTextBox1.TabIndex = 12;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(57, 523);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 29);
+            this.label1.Size = new System.Drawing.Size(75, 25);
             this.label1.TabIndex = 14;
             this.label1.Text = "Name:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // nameText
             // 
             this.nameText.Location = new System.Drawing.Point(216, 516);
             this.nameText.Name = "nameText";
-            this.nameText.Size = new System.Drawing.Size(354, 35);
+            this.nameText.Size = new System.Drawing.Size(354, 30);
             this.nameText.TabIndex = 15;
+            this.nameText.TextChanged += new System.EventHandler(this.nameText_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(57, 577);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 29);
+            this.label2.Size = new System.Drawing.Size(107, 25);
             this.label2.TabIndex = 16;
             this.label2.Text = "Message:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // mesText
             // 
             this.mesText.Location = new System.Drawing.Point(216, 570);
             this.mesText.Name = "mesText";
-            this.mesText.Size = new System.Drawing.Size(974, 35);
+            this.mesText.Size = new System.Drawing.Size(974, 30);
             this.mesText.TabIndex = 17;
+            this.mesText.TextChanged += new System.EventHandler(this.mesText_TextChanged);
             // 
             // chatClient
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1232, 788);
             this.Controls.Add(this.mesText);

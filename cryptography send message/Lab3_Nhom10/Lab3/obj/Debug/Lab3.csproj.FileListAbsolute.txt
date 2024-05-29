@@ -55,3 +55,22 @@ C:\Users\khoiv\Downloads\Lab03_22520689_TranDinhKhoa\Lab3\obj\Debug\Lab3.csproj.
 C:\Users\khoiv\Downloads\Lab03_22520689_TranDinhKhoa\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
 C:\Users\khoiv\Downloads\Lab03_22520689_TranDinhKhoa\Lab3\obj\Debug\Lab3.exe
 C:\Users\khoiv\Downloads\Lab03_22520689_TranDinhKhoa\Lab3\obj\Debug\Lab3.pdb
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\bin\Debug\Lab3.exe.config
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\bin\Debug\Lab3.exe
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\bin\Debug\Lab3.pdb
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.csprojAssemblyReference.cache
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.chat.resources
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.chatClient.resources
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.chatForm.resources
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.Form1.resources
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.Properties.Resources.resources
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.tcp.resources
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.tcpClient.resources
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.tcpTelnet.resources
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.udp.resources
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.UDPClient.resources
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.UDPServer.resources
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.csproj.GenerateResource.cache
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.exe
+C:\Users\buivu\Documents\GitHub\e2e-encrypted-chat-room\cryptography send message\Lab3_Nhom10\Lab3\obj\Debug\Lab3.pdb
