@@ -83,6 +83,7 @@ namespace Lab3
                     }
                 }
             }
+
             clientSocket.Close();
             clientSockets.Remove(clientSocket); // Remove client from the list when disconnected
             dataToSend = Encoding.UTF8.GetBytes("Client disconnected\n");

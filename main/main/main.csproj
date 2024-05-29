@@ -152,6 +152,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="onevs1chat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="onevs1chat.Designer.cs">
+      <DependentUpon>onevs1chat.cs</DependentUpon>
+    </Compile>
     <Compile Include="Chatroom.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +184,9 @@
     <Compile Include="Theme.Designer.cs">
       <DependentUpon>Theme.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="onevs1chat.resx">
+      <DependentUpon>onevs1chat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Chatroom.resx">
       <DependentUpon>Chatroom.cs</DependentUpon>
     </EmbeddedResource>
