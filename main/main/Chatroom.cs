@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 namespace main
 {
     public partial class Chatroom : Form
@@ -41,7 +42,6 @@ namespace main
         private NetworkStream stream;
         private bool connected = false;
 
-
         private void ReceiveMessages()
         {
             while (connected)
@@ -54,16 +54,6 @@ namespace main
                     richTextBox1.ScrollToCaret();
                 });
             }
-        }
-
-        private void Chatroom_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -81,19 +71,5 @@ namespace main
             byte[] data = Encoding.UTF8.GetBytes(text);
             stream.Write(data, 0, data.Length);
         }
-
-        private void richTextBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-       
-        }
-
     }
 
