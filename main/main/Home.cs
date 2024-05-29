@@ -29,7 +29,7 @@ namespace main
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-   
+            new Home().Close();
             new Signup().Show();
        
         }
@@ -37,6 +37,12 @@ namespace main
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Home().Close();
+            new Chatroom().Show();
         }
     }
 }

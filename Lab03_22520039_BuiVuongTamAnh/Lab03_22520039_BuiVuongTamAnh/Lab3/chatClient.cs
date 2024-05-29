@@ -72,5 +72,10 @@ namespace Lab3
             byte[] data = Encoding.UTF8.GetBytes(text);
             stream.Write(data, 0, data.Length);
         }
+
+        private void mesText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -19,6 +19,8 @@ namespace Lab3
         {
             InitializeComponent();
         }
+
+
         private List<Socket> clientSockets = new List<Socket>();
         private void StartListen(object sender, EventArgs e)
         {

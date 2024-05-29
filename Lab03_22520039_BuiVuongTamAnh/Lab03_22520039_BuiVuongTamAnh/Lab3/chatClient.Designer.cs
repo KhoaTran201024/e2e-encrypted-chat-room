@@ -59,7 +59,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(57, 523);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 37);
+            this.label1.Size = new System.Drawing.Size(75, 25);
             this.label1.TabIndex = 14;
             this.label1.Text = "Name:";
             // 
@@ -67,7 +67,7 @@
             // 
             this.nameText.Location = new System.Drawing.Point(216, 516);
             this.nameText.Name = "nameText";
-            this.nameText.Size = new System.Drawing.Size(354, 44);
+            this.nameText.Size = new System.Drawing.Size(354, 30);
             this.nameText.TabIndex = 15;
             // 
             // label2
@@ -75,7 +75,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(57, 577);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 37);
+            this.label2.Size = new System.Drawing.Size(107, 25);
             this.label2.TabIndex = 16;
             this.label2.Text = "Message:";
             // 
@@ -83,12 +83,13 @@
             // 
             this.mesText.Location = new System.Drawing.Point(216, 570);
             this.mesText.Name = "mesText";
-            this.mesText.Size = new System.Drawing.Size(974, 44);
+            this.mesText.Size = new System.Drawing.Size(974, 30);
             this.mesText.TabIndex = 17;
+            this.mesText.TextChanged += new System.EventHandler(this.mesText_TextChanged);
             // 
             // chatClient
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1232, 788);
             this.Controls.Add(this.mesText);
@@ -97,8 +98,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.sendBtn);
             this.Controls.Add(this.richTextBox1);
-            this.Font = new System.Drawing.Font("JetBrainsMono NF SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "chatClient";
             this.Text = "chat Client";
             this.ResumeLayout(false);
