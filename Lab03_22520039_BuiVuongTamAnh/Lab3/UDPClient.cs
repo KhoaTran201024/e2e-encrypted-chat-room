@@ -51,5 +51,10 @@ namespace Lab3
         {
             msgText.Text = "";
         }
+
+        private void UDPClient_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
