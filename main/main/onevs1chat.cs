@@ -182,5 +182,27 @@ namespace main
         {
             TCPStartListen(sender, e);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+            {
+                using (OpenFileDialog openFileDialog = new OpenFileDialog())
+                {
+                    openFileDialog.Multiselect = true; // Allow multiple file selection
+                    openFileDialog.Filter = "All Files|*.*"; // You can customize the filter if needed
+
+                    if (openFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+
+
+                        // Display selected file paths in richTextBox2
+                        foreach (string filePath in openFileDialog.FileNames)
+                        {
+                            richTextBox1.AppendText(filePath + Environment.NewLine);
+
+                        }
+                    }
+                }
+            }
+        
     }
 }
