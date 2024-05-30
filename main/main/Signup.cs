@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
+using BCrypt.Net;
 
 namespace main
 {
@@ -39,7 +40,7 @@ namespace main
             var db = client.GetDatabase(dbName);
             var collection = db.GetCollection<PersonModel>(collectionName);
 
-            var person = new PersonModel { Name = textBox1.Text, Password = textBox2.Text };
+            var person = new PersonModel { Name = textBox1.Text, Password = BCrypt.Net.BCrypt.HashPassword(textBox2.Text) };
 
             await collection.InsertOneAsync(person);
             var results = await collection.FindAsync(_ => true);

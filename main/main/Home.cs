@@ -13,6 +13,7 @@ using System.Windows.Forms;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
+using BCrypt.Net;
 
 namespace main
 {
@@ -130,12 +131,12 @@ namespace main
             string name = textBox1.Text;
             string pwd = textBox2.Text;
 
-            var filter = Builders<PersonModel>.Filter.Eq("Name", name) &
-                         Builders<PersonModel>.Filter.Eq("Password", pwd);
+            var filter = Builders<PersonModel>.Filter.Eq("Name", name); /*&
+                         Builders<PersonModel>.Filter.Eq("Password", pwd);*/
 
             var user = collection.Find(filter).FirstOrDefault();
 
-            if (user != null)
+            if (user != null && BCrypt.Net.BCrypt.Verify(pwd, user.Password))
             {
                 MessageBox.Show("Login successful.");
                 StartListen(sender, e);
