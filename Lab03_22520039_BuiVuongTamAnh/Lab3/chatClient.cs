@@ -62,8 +62,8 @@ namespace Lab3
                 return;
             }
 
-            string ipText = "127.0.0.1";
-            string portText = "8080";
+         //   string ipText = "127.0.0.1";
+           // string portText = "8080";
             string text = nameText.Text + ": " + mesText.Text;
             text = text.Trim();
             if (text[text.Length - 1] != '\n')

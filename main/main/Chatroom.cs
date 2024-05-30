@@ -10,11 +10,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace main
 {
     public partial class Chatroom : Form
     {
+        private string encryptionKey = "nhomgido";
         public Chatroom()
         {
             InitializeComponent();
@@ -42,6 +42,53 @@ namespace main
         private NetworkStream stream;
         private bool connected = false;
 
+        private string Encrypt(string text, string key)
+        {
+            StringBuilder encryptedText = new StringBuilder();
+
+            for (int i = 0; i < text.Length; i++)
+            {
+                char character = text[i];
+                int keyIndex = i % key.Length;
+                int shift = key[keyIndex] - 'a';
+
+                if (char.IsLetter(character))
+                {
+                    char encryptedChar = (char)(('a' + (character - 'a' + shift) % 26));
+                    encryptedText.Append(encryptedChar);
+                }
+                else
+                {
+                    encryptedText.Append(character);
+                }
+            }
+
+            return encryptedText.ToString();
+        }
+        private string Decrypt(string encryptedText, string key)
+        {
+            StringBuilder decryptedText = new StringBuilder();
+
+            for (int i = 0; i < encryptedText.Length; i++)
+            {
+                char character = encryptedText[i];
+                int keyIndex = i % key.Length;
+                int shift = key[keyIndex] - 'a';
+
+                if (char.IsLetter(character))
+                {
+                    char decryptedChar = (char)(('a' + (character - 'a' - shift + 26) % 26));
+                    decryptedText.Append(decryptedChar);
+                }
+                else
+                {
+                    decryptedText.Append(character);
+                }
+            }
+
+            return decryptedText.ToString();
+        }
+
         private void ReceiveMessages()
         {
             while (connected)
@@ -54,6 +101,16 @@ namespace main
                     richTextBox1.ScrollToCaret();
                 });
             }
+        }
+
+        private void Chatroom_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -71,5 +128,21 @@ namespace main
             byte[] data = Encoding.UTF8.GetBytes(text);
             stream.Write(data, 0, data.Length);
         }
+
+        private void richTextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Chatroom_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 
+}

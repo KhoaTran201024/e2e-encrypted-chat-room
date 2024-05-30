@@ -138,8 +138,10 @@ namespace main
             if (user != null)
             {
                 MessageBox.Show("Login successful.");
-                StartListen(sender, e);
-                new Chatroom().Show();
+                //StartListen(sender, e);
+                new Theme().Show();
+                this.Hide();
+                
             }
             else
             {
