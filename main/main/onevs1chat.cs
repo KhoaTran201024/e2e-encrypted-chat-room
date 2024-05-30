@@ -16,7 +16,7 @@ namespace main
     public partial class onevs1chat : Form
     {
         // Key for Vigenere encryption
-        private string encryptionKey = "KEY";
+        private string encryptionKey = "nhomgido";
         public onevs1chat()
         {
             InitializeComponent();
@@ -64,6 +64,7 @@ namespace main
             {
 
                 string text = "";
+                string st = "";
                 byte[] recv = new byte[1024];
                 do
                 {
@@ -74,9 +75,9 @@ namespace main
                 } while (text[text.Length - 1] != '\n');
                 if (text == "")
                     break;
-                richTextBox1.Text += text;
-
-
+                st += text;
+                richTextBox1.Text += Decrypt(st, encryptionKey);
+                
 
 
 
@@ -99,11 +100,11 @@ namespace main
             {
                 char character = text[i];
                 int keyIndex = i % key.Length;
-                int shift = key[keyIndex] - 'A';
+                int shift = key[keyIndex] - 'a';
 
                 if (char.IsLetter(character))
                 {
-                    char encryptedChar = (char)(('A' + (character - 'A' + shift) % 26));
+                    char encryptedChar = (char)(('a' + (character - 'a' + shift) % 26));
                     encryptedText.Append(encryptedChar);
                 }
                 else
@@ -122,11 +123,11 @@ namespace main
             {
                 char character = encryptedText[i];
                 int keyIndex = i % key.Length;
-                int shift = key[keyIndex] - 'A';
+                int shift = key[keyIndex] - 'a';
 
                 if (char.IsLetter(character))
                 {
-                    char decryptedChar = (char)(('A' + (character - 'A' - shift + 26) % 26));
+                    char decryptedChar = (char)(('a' + (character - 'a' - shift + 26) % 26));
                     decryptedText.Append(decryptedChar);
                 }
                 else
