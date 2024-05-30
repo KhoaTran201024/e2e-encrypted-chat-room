@@ -20,7 +20,7 @@ namespace Lab3
         {
             InitializeComponent();
         }
-        private void StartListen(object sender, EventArgs e)
+        private void TCPStartListen(object sender, EventArgs e)
         {
             //Xử lý lỗi InvalidOperationException 
             CheckForIllegalCrossThreadCalls = false;
@@ -51,12 +51,12 @@ namespace Lab3
 
                 richTextBox1.Text += "New client\n";
 
-                Thread clientThread = new Thread(() => ReceiveMessages(clientSocket));
+                Thread clientThread = new Thread(() => TCPReceiveMessages(clientSocket));
                 clientThread.Start();
             }
 
         }
-        void ReceiveMessages(Socket clientSocket)
+        void TCPReceiveMessages(Socket clientSocket)
         {
             while (clientSocket.Connected)
             {
@@ -80,7 +80,7 @@ namespace Lab3
         }
         private void listenBtn_Click(object sender, EventArgs e)
         {
-            StartListen(sender, e);
+            TCPStartListen(sender, e);
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)

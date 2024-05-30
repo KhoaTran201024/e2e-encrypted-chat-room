@@ -63,9 +63,6 @@ namespace main
                 MessageBox.Show("Not connected to the server!");
                 return;
             }
-
-            //string ipText = "127.0.0.1";
-            //string portText = "8080";
             string text = richTextBox3.Text + ": " + richTextBox2.Text;
             text = text.Trim();
             if (text[text.Length - 1] != '\n')
@@ -75,4 +72,4 @@ namespace main
             stream.Write(data, 0, data.Length);
         }
     }
-}
+
