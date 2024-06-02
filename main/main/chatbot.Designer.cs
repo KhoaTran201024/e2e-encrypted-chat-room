@@ -47,21 +47,21 @@
             this.messagesListBox.ItemHeight = 16;
             this.messagesListBox.Location = new System.Drawing.Point(12, 12);
             this.messagesListBox.Name = "messagesListBox";
-            this.messagesListBox.Size = new System.Drawing.Size(601, 292);
+            this.messagesListBox.Size = new System.Drawing.Size(749, 324);
             this.messagesListBox.TabIndex = 2;
             this.messagesListBox.SelectedIndexChanged += new System.EventHandler(this.messagesListBox_SelectedIndexChanged_1);
             // 
             // inputTextBox
             // 
-            this.inputTextBox.Location = new System.Drawing.Point(152, 354);
+            this.inputTextBox.Location = new System.Drawing.Point(12, 354);
             this.inputTextBox.Name = "inputTextBox";
-            this.inputTextBox.Size = new System.Drawing.Size(502, 22);
+            this.inputTextBox.Size = new System.Drawing.Size(643, 22);
             this.inputTextBox.TabIndex = 3;
             this.inputTextBox.TextChanged += new System.EventHandler(this.inputTextBox_TextChanged);
             // 
             // sendButton
             // 
-            this.sendButton.Location = new System.Drawing.Point(685, 354);
+            this.sendButton.Location = new System.Drawing.Point(686, 354);
             this.sendButton.Name = "sendButton";
             this.sendButton.Size = new System.Drawing.Size(75, 23);
             this.sendButton.TabIndex = 4;
