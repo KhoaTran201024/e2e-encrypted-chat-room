@@ -181,6 +181,7 @@ namespace main
         private void button2_Click(object sender, EventArgs e)
         {
             TCPStartListen(sender, e);
+            MessageBox.Show("Server start listening.");
         }
 
         private void button3_Click(object sender, EventArgs e)
