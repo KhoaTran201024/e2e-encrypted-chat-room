@@ -19,12 +19,12 @@ namespace main
 
         async private void sendButton_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(inputTextBox.Text))
+            if (string.IsNullOrWhiteSpace(richTextBox1.Text))
                 return;
 
-            var userMessage = inputTextBox.Text;
+            var userMessage = richTextBox1.Text;
             messagesListBox.Items.Add($"You: {userMessage}");
-            inputTextBox.Clear();
+            richTextBox1.Clear();
 
             var responseMessage =  await SendMessageToOpenAI(userMessage);
             messagesListBox.Items.Add($"Bot: {responseMessage}");
@@ -51,5 +51,6 @@ namespace main
 
             return data.choices[0].text.ToString();
         }
+
     }
 }
