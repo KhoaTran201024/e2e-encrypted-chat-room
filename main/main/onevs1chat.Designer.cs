@@ -43,7 +43,6 @@
             this.richTextBox1.Size = new System.Drawing.Size(757, 319);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // button1
             // 
@@ -61,7 +60,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(287, 22);
             this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -69,7 +67,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(287, 22);
             this.textBox2.TabIndex = 4;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button2
             // 
@@ -105,7 +102,6 @@
             this.Controls.Add(this.richTextBox1);
             this.Name = "onevs1chat";
             this.Text = "onevs1chat";
-            this.Load += new System.EventHandler(this.onevs1chat_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

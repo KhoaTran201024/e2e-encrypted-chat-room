@@ -49,7 +49,6 @@
             this.messagesListBox.Name = "messagesListBox";
             this.messagesListBox.Size = new System.Drawing.Size(749, 324);
             this.messagesListBox.TabIndex = 2;
-            this.messagesListBox.SelectedIndexChanged += new System.EventHandler(this.messagesListBox_SelectedIndexChanged_1);
             // 
             // inputTextBox
             // 
@@ -57,7 +56,6 @@
             this.inputTextBox.Name = "inputTextBox";
             this.inputTextBox.Size = new System.Drawing.Size(643, 22);
             this.inputTextBox.TabIndex = 3;
-            this.inputTextBox.TextChanged += new System.EventHandler(this.inputTextBox_TextChanged);
             // 
             // sendButton
             // 

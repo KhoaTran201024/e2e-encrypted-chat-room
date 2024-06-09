@@ -38,42 +38,46 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(222, 223);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
+            this.label3.Location = new System.Drawing.Point(196, 187);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 17);
+            this.label3.Size = new System.Drawing.Size(94, 22);
             this.label3.TabIndex = 12;
             this.label3.Text = "Password:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(246, 179);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
+            this.label2.Location = new System.Drawing.Point(228, 143);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 17);
+            this.label2.Size = new System.Drawing.Size(62, 22);
             this.label2.TabIndex = 11;
             this.label2.Text = "Name:";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(301, 223);
+            this.textBox2.Location = new System.Drawing.Point(305, 187);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(243, 22);
             this.textBox2.TabIndex = 10;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(301, 179);
+            this.textBox1.Location = new System.Drawing.Point(305, 143);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(243, 22);
             this.textBox1.TabIndex = 9;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(356, 271);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
+            this.button1.Location = new System.Drawing.Point(305, 215);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(243, 37);
             this.button1.TabIndex = 13;
-            this.button1.Text = "Submit";
+            this.button1.Text = "Sign Up";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

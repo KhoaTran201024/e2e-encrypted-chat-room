@@ -38,9 +38,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(60, 83);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F);
+            this.button1.Location = new System.Drawing.Point(48, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 41);
+            this.button1.Size = new System.Drawing.Size(167, 70);
             this.button1.TabIndex = 0;
             this.button1.Text = "1 vs 1 chat";
             this.button1.UseVisualStyleBackColor = true;
@@ -48,9 +49,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(60, 326);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F);
+            this.button2.Location = new System.Drawing.Point(48, 191);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 41);
+            this.button2.Size = new System.Drawing.Size(167, 70);
             this.button2.TabIndex = 1;
             this.button2.Text = "Group chat";
             this.button2.UseVisualStyleBackColor = true;
@@ -86,9 +88,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(60, 195);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F);
+            this.button3.Location = new System.Drawing.Point(48, 368);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(102, 41);
+            this.button3.Size = new System.Drawing.Size(167, 70);
             this.button3.TabIndex = 5;
             this.button3.Text = "Chatbot";
             this.button3.UseVisualStyleBackColor = true;

@@ -39,8 +39,8 @@ namespace main
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            new Home().Close();
             new Signup().Show();
+            this.Hide();
         }
 
         void ReceiveMessage(Socket clientSocket)
