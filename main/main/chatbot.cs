@@ -17,19 +17,6 @@ namespace main
             InitializeComponent();
         }
 
-        private void inputTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void messagesListBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-
-
-
-        }
-
         async private void sendButton_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(inputTextBox.Text))
@@ -63,11 +50,6 @@ namespace main
             var data = JsonConvert.DeserializeObject<dynamic>(responseContent);
 
             return data.choices[0].text.ToString();
-        }
-
-        private void messagesListBox_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -184,18 +184,6 @@ namespace main
             }
         }
 
-
-
-        private void Chatroom_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (!connected)
@@ -247,22 +235,6 @@ namespace main
             }
         }
 
-
-        private void richTextBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Chatroom_Load_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
             {
                 using (OpenFileDialog openFileDialog = new OpenFileDialog())
@@ -283,16 +255,6 @@ namespace main
                     }
                 }
             }
-
-        private void richTextBox1_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 
 }
