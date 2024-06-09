@@ -42,7 +42,7 @@ namespace main
             // 
             this.richTextBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(11, 11);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(448, 246);
             this.richTextBox1.TabIndex = 0;
@@ -52,7 +52,7 @@ namespace main
             // richTextBox2
             // 
             this.richTextBox2.Location = new System.Drawing.Point(147, 307);
-            this.richTextBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox2.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(393, 51);
             this.richTextBox2.TabIndex = 1;
@@ -63,7 +63,7 @@ namespace main
             this.button1.AutoSize = true;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(544, 279);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(55, 74);
             this.button1.TabIndex = 2;
@@ -74,7 +74,7 @@ namespace main
             // richTextBox3
             // 
             this.richTextBox3.Location = new System.Drawing.Point(147, 272);
-            this.richTextBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox3.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.Size = new System.Drawing.Size(393, 30);
             this.richTextBox3.TabIndex = 3;
@@ -85,7 +85,7 @@ namespace main
             this.button2.AutoSize = true;
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button2.Location = new System.Drawing.Point(463, 182);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(133, 23);
             this.button2.TabIndex = 4;
@@ -97,7 +97,7 @@ namespace main
             // 
             this.richTextBox4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox4.Location = new System.Drawing.Point(463, 11);
-            this.richTextBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox4.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.Size = new System.Drawing.Size(133, 167);
             this.richTextBox4.TabIndex = 5;
@@ -109,7 +109,7 @@ namespace main
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.PaleGreen;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkViolet;
+            this.label1.ForeColor = System.Drawing.Color.Navy;
             this.label1.Location = new System.Drawing.Point(12, 272);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(136, 19);
@@ -121,7 +121,7 @@ namespace main
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.PaleGreen;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DarkViolet;
+            this.label2.ForeColor = System.Drawing.Color.Navy;
             this.label2.Location = new System.Drawing.Point(12, 307);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 19);
@@ -142,7 +142,7 @@ namespace main
             this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Chatroom";
             this.Text = "Chatroom";
             this.ResumeLayout(false);
