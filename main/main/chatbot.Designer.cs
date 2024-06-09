@@ -52,8 +52,8 @@
             this.messagesListBox.Name = "messagesListBox";
             this.messagesListBox.Size = new System.Drawing.Size(582, 213);
             this.messagesListBox.TabIndex = 2;
-            this.messagesListBox.SelectedIndexChanged += new System.EventHandler(this.messagesListBox_SelectedIndexChanged_1);
             // 
+
             // sendButton
             // 
             this.sendButton.AutoSize = true;

@@ -47,7 +47,6 @@ namespace main
             this.richTextBox1.Size = new System.Drawing.Size(448, 246);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged_1);
             // 
             // richTextBox2
             // 
@@ -102,7 +101,6 @@ namespace main
             this.richTextBox4.Size = new System.Drawing.Size(133, 167);
             this.richTextBox4.TabIndex = 5;
             this.richTextBox4.Text = "";
-            this.richTextBox4.TextChanged += new System.EventHandler(this.richTextBox4_TextChanged);
             // 
             // label1
             // 

@@ -17,19 +17,6 @@ namespace main
             InitializeComponent();
         }
 
-        private void inputTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void messagesListBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-
-
-
-        }
-
         async private void sendButton_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(richTextBox1.Text))
@@ -65,19 +52,5 @@ namespace main
             return data.choices[0].text.ToString();
         }
 
-        private void messagesListBox_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -45,12 +45,16 @@ namespace main
             await collection.InsertOneAsync(person);
             var results = await collection.FindAsync(_ => true);
 
-            foreach (var result in results.ToList())
+            if (results != null)
             {
-                Console.WriteLine($"{result.Id}: {result.Name} {result.Password}");
+                MessageBox.Show("User added successfully");
+                this.Close();
+                new Home().Show();
             }
-
-            
+            //foreach (var result in results.ToList())
+            //{
+            //    Console.WriteLine($"{result.Id}: {result.Name} {result.Password}");
+            //}
         }
 
     }
