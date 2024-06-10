@@ -29,6 +29,14 @@ namespace main
             var responseMessage =  await SendMessageToOpenAI(userMessage);
             messagesListBox.Items.Add($"Bot: {responseMessage}");
         }
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private async Task<string> SendMessageToOpenAI(string message)
         {
